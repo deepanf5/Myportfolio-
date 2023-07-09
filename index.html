@@ -11,6 +11,7 @@
       href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
     <header>
@@ -39,26 +40,35 @@
 
     <!-- main -->
     <main class="hero" id="top">
-      <h1 class="hero-text"><span class="user">Hi,</span> I am Deepan.</h1>
+      <h1 data-aos="flip-left" class="hero-text">
+        <span class="user">Hi,</span> I am Deepan.
+      </h1>
 
       <!-- <h1 class="hero-text">
           <span class="user">Hi,</span>I am  Deepan.  <br> Rectangular Developer.
         </h1> -->
-      <p class="hero-text-two">
+      <p data-aos="zoom-out-up" class="hero-text-two">
         And I am a software Engineer I build things for the Web. I don't just
         build websites, I build websites that SELLS”
       </p>
-      <button class="More-button"><a href="#skills">see more</a></button>
+      <button
+        data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine"
+        class="More-button"
+      >
+        <a href="#skills">see more</a>
+      </button>
     </main>
 
     <!-- skill skills -->
     <section class="skill">
-      <h2 class="skill-title" id="skills">
+      <h2 data-aos="zoom-in-right" class="skill-title" id="skills">
         my skills
         <span class="color-text">section.</span>
       </h2>
       <div class="skill-container">
-        <div class="card card-html">
+        <div class="card card-html" data-aos="zoom-out-down">
           <div class="card-content">
             <h2 class="card-title">Html 5</h2>
             <p class="percentage">with 90%</p>
@@ -69,7 +79,7 @@
             alt=""
           />
         </div>
-        <div class="card">
+        <div class="card" data-aos="zoom-out-up">
           <div class="card-content">
             <h2 class="card-title">CSS 3</h2>
             <p class="percentage">with 90%</p>
@@ -80,7 +90,7 @@
             alt=""
           />
         </div>
-        <div class="card">
+        <div class="card" data-aos="zoom-out-down">
           <div class="card-content">
             <h2 class="card-title">Js ES6</h2>
             <p class="percentage">with 85%</p>
@@ -91,7 +101,7 @@
             alt=""
           />
         </div>
-        <div class="card">
+        <div class="card" data-aos="zoom-out-up">
           <div class="card-content">
             <h2 class="card-title">Type Script</h2>
             <p class="percentage">with 90%</p>
@@ -102,7 +112,7 @@
             alt=""
           />
         </div>
-        <div class="card">
+        <div class="card" data-aos="zoom-in">
           <div class="card-content">
             <h2 class="card-title">Angular v-16</h2>
             <p class="percentage">with 88%</p>
@@ -113,7 +123,7 @@
             alt=""
           />
         </div>
-        <div class="card">
+        <div class="card" data-aos="zoom-out-up">
           <div class="card-content">
             <h2 class="card-title">React with Ts</h2>
             <p class="percentage">with 60%</p>
@@ -124,7 +134,7 @@
             alt=""
           />
         </div>
-        <div class="card">
+        <div class="card" data-aos="zoom-in">
           <div class="card-content">
             <h2 class="card-title">Bootstrap 5</h2>
             <p class="percentage">with 90%</p>
@@ -135,7 +145,7 @@
             alt=""
           />
         </div>
-        <div class="card">
+        <div class="card" data-aos="zoom-out-down">
           <div class="card-content">
             <h2 class="card-title">Firebase 7</h2>
             <p class="percentage">with 50%</p>
@@ -146,7 +156,7 @@
             alt=""
           />
         </div>
-        <div class="card">
+        <div class="card" data-aos="zoom-out-up">
           <div class="card-content">
             <h2 class="card-title">Prime-ng</h2>
             <p class="percentage">with 85%</p>
@@ -157,7 +167,7 @@
             alt=""
           />
         </div>
-        <div class="card">
+        <div class="card" data-aos="zoom-out-down">
           <div class="card-content">
             <h2 class="card-title">ant-design</h2>
             <p class="percentage">with 75%</p>
@@ -168,7 +178,7 @@
             alt=""
           />
         </div>
-        <div class="card">
+        <div class="card" data-aos="zoom-in">
           <div class="card-content">
             <h2 class="card-title">ag-grid</h2>
             <p class="percentage">with 85%</p>
@@ -179,7 +189,7 @@
             alt=""
           />
         </div>
-        <div class="card">
+        <div class="card" data-aos="zoom-out-up">
           <div class="card-content">
             <h2 class="card-title">Nebular</h2>
             <p class="percentage">with 90%</p>
@@ -196,12 +206,12 @@
     <!-- experience -->
 
     <section class="experience" id="experience">
-      <h2 class="experience-title">
+      <h2 data-aos="fade-up-right" class="experience-title">
         my work<span class="color-text"> experience.</span>
       </h2>
 
       <div class="experience-container">
-        <div class="experience-image-container">
+        <div data-aos="flip-up" class="experience-image-container">
           <img
             class="experience-image"
             src="/images/reshot-icon-devices-ZER45XF8LV.svg"
@@ -209,25 +219,27 @@
           />
         </div>
         <div class="experience-content">
-          <h2 class="total-experience">
+          <h2 data-aos="fade-left" class="total-experience">
             Total 1.6 years
             <img class="code" src="/images/undraw_code.svg" alt="" />
             with Angular.
           </h2>
-          <p>
+          <p data-aos="zoom-out-up">
             Working as junior software engineer with Wissen infotech from
             <time datetime="2022-01-24">2022-01-24 till now</time>
           </p>
-          <button class="More-button">download cv</button>
+          <button data-aos="zoom-out-up" class="More-button">
+            download cv
+          </button>
         </div>
       </div>
     </section>
 
     <section class="work-section" id="work-section">
-      <h2 class="works">My Works</h2>
+      <h2 data-aos="fade-right" class="works">My Works</h2>
 
       <div class="work-card-container">
-        <div class="work-card">
+        <div data-aos="flip-up" class="work-card">
           <div class="work-header">
             <p class="work-title">ngx-super-admin</p>
           </div>
@@ -259,7 +271,7 @@
             </a>
           </div>
         </div>
-        <div class="work-card">
+        <div data-aos="fade-left" class="work-card">
           <div class="work-header">
             <p class="work-title">game-hub</p>
           </div>
@@ -372,6 +384,10 @@
         let navbar = document.getElementById("nav-list");
         navbar.classList.toggle("show");
       }
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
     </script>
   </body>
 </html>
